@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Matthew Wong is an Innovation and Technology student at HKU building practical AI, hardware, and digital products."
+    />
+    <meta name="theme-color" content="#06101f" />
+    <title>Matthew Wong — Innovation & Technology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="ambient" aria-hidden="true">
+      <span class="ambient__orb ambient__orb--one"></span>
+      <span class="ambient__orb ambient__orb--two"></span>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="Matthew Wong, home">
+        <span>MW</span><i></i>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span>Menu</span>
+        <i></i>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#recognition">Recognition</a>
+        <a class="nav-cta" href="#contact">Let’s talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero__status reveal">
+          <span class="status-dot"></span>
+          <span>Hong Kong · 22.3193° N, 114.1694° E</span>
+        </div>
+
+        <div class="hero__copy">
+          <p class="eyebrow reveal">Innovation technologist · Student builder</p>
+          <h1 class="reveal">
+            Ideas are useful<br />
+            when they <em>work.</em>
+          </h1>
+          <div class="hero__footer reveal">
+            <p>
+              I’m Matthew Wong, an Innovation and Technology student at HKU. I turn field
+              observations into prototypes across AI, physical computing, and product design.
+            </p>
+            <a class="round-link" href="#work" aria-label="Explore selected work">
+              <span>Explore<br />work</span>
+              <b>↓</b>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="signal signal--a"></div>
+          <div class="signal signal--b"></div>
+          <div class="signal signal--c"></div>
+          <div class="hero__monogram">M<span>W</span></div>
+          <div class="hero__axis hero__axis--x">BUILD / TEST / REFINE</div>
+          <div class="hero__axis hero__axis--y">HKU · 2026</div>
+        </div>
+
+        <div class="ticker" aria-hidden="true">
+          <div>
+            <span>AI PRODUCTS</span><i>✦</i><span>PHYSICAL COMPUTING</span><i>✦</i>
+            <span>PRODUCT STRATEGY</span><i>✦</i><span>HUMAN-CENTRED DESIGN</span><i>✦</i>
+            <span>AI PRODUCTS</span><i>✦</i><span>PHYSICAL COMPUTING</span><i>✦</i>
+            <span>PRODUCT STRATEGY</span><i>✦</i><span>HUMAN-CENTRED DESIGN</span><i>✦</i>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <div class="section-heading reveal">
+          <p class="section-index">01 / Selected work</p>
+          <h2>From a real constraint<br />to a working direction</h2>
+          <p>Projects shaped by research, prototyping, and a bias toward practical outcomes.</p>
+        </div>
+
+        <div class="filters reveal" aria-label="Filter projects">
+          <button class="filter is-active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="hardware">Hardware</button>
+          <button class="filter" type="button" data-filter="ai">AI</button>
+          <button class="filter" type="button" data-filter="product">Product</button>
+        </div>
+
+        <div class="projects">
+          <article class="project project--feature reveal" data-category="hardware product">
+            <a class="project__media" href="ref/GATE24%20Final%20Report%20(2).pdf" target="_blank" rel="noreferrer">
+              <img
+                src="ref/ChatGPT%20%E5%9C%96%E5%83%8F%202026%E5%B9%B411%E6%9C%8810%E6%97%A5%20%E4%B8%8B%E5%8D%8811_23_49.jpg"
+                alt="CAD model of the GATE24 card dispenser mechanism"
+              />
+              <span class="project__number">01</span>
+              <span class="project__open">Open report ↗</span>
+            </a>
+            <div class="project__body">
+              <div class="project__meta">
+                <span>Physical computing</span>
+                <span>2026</span>
+              </div>
+              <h3>GATE24</h3>
+              <p>
+                A low-cost self check-in kiosk for Runway 1331. A pre-arrival web flow and
+                Raspberry Pi card dispenser let late-night guests collect an encoded RFID room
+                card without extending reception hours.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Raspberry Pi</li><li>RFID</li><li>3D printing</li><li>Service design</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="ai product">
+            <a class="project__media project__media--chat" href="ref/ccai9009_sat.pdf.pdf" target="_blank" rel="noreferrer">
+              <div class="chat-visual" aria-hidden="true">
+                <span class="chat-visual__label">KNOWLEDGE BASE</span>
+                <p>100<span>+</span></p>
+                <small>essays and articles</small>
+                <i class="chat-visual__line"></i>
+              </div>
+              <span class="project__number">02</span>
+              <span class="project__open">Open project ↗</span>
+            </a>
+            <div class="project__body">
+              <div class="project__meta"><span>Applied AI</span><span>2026</span></div>
+              <h3>CCAI9009 Chatbot</h3>
+              <p>
+                A retrieval-based chatbot built with Nabiha around a curated database of more
+                than 100 essays and articles, pairing a coded interface with an evidence library.
+              </p>
+              <ul class="tags"><li>Chatbot</li><li>Data curation</li><li>UI design</li></ul>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="product ai">
+            <a class="project__media project__media--edustay" href="ref/CCGL9031.pdf.pdf" target="_blank" rel="noreferrer">
+              <div class="blueprint" aria-hidden="true">
+                <span>VERIFIED / 3D / ESCROW</span>
+                <div class="blueprint__room"><i></i><i></i><i></i></div>
+                <b>EduStay<sup>HK</sup></b>
+              </div>
+              <span class="project__number">03</span>
+              <span class="project__open">Open pitch ↗</span>
+            </a>
+            <div class="project__body">
+              <div class="project__meta"><span>PropTech concept</span><span>2026</span></div>
+              <h3>EduStay HK</h3>
+              <p>
+                A verified student housing marketplace concept for incoming Mainland students,
+                combining 3D tours, academic-length leases, check-in escrow, and roommate matching.
+              </p>
+              <ul class="tags"><li>Market research</li><li>Product strategy</li><li>Pitch design</li></ul>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="hardware product">
+            <a class="project__media project__media--cortisol" href="ref/Blue%20and%20White%20Modern%20Business%20Proposal%20Presentation%20(1).pdf" target="_blank" rel="noreferrer">
+              <div class="cortisol-visual" aria-hidden="true">
+                <span>STRESS / SIGNAL</span>
+                <div class="pulse"><i></i></div>
+                <b>01:00</b>
+                <small>rapid testing concept</small>
+              </div>
+              <span class="project__number">04</span>
+              <span class="project__open">Open proposal ↗</span>
+            </a>
+            <div class="project__body">
+              <div class="project__meta"><span>Health technology</span><span>2026</span></div>
+              <h3>Cortisol Test Kit</h3>
+              <p>
+                An accessible rapid-test concept developed with Violet and Benjamin for people
+                who want a more affordable way to understand their physiological stress response.
+              </p>
+              <ul class="tags"><li>User research</li><li>Market framing</li><li>Concept design</li></ul>
+            </div>
+          </article>
+
+          <article class="project project--wide reveal" data-category="product">
+            <a class="project__media" href="ref/ChatGPT%20%E5%9C%96%E5%83%8F%202026%E5%B9%B411%E6%9C%8810%E6%97%A5%20%E4%B8%8B%E5%8D%8811_22_53.jpg" target="_blank" rel="noreferrer">
+              <img
+                src="ref/ChatGPT%20%E5%9C%96%E5%83%8F%202026%E5%B9%B411%E6%9C%8810%E6%97%A5%20%E4%B8%8B%E5%8D%8811_22_53.jpg"
+                alt="HackU 2026 event group photo at HKU"
+              />
+              <span class="project__number">05</span>
+              <span class="project__open">View image ↗</span>
+            </a>
+            <div class="project__body">
+              <div class="project__meta"><span>Innovation community</span><span>2026</span></div>
+              <h3>HackU 2026</h3>
+              <p>
+                Three days on the HKU campus surrounded by builders, mentors, and early-stage
+                ideas. The event brought the local student innovation community into one room.
+              </p>
+              <ul class="tags"><li>Hackathon</li><li>Community</li><li>HKU</li></ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about__rail reveal" aria-hidden="true">
+          <span>02</span><i></i><small>ABOUT</small>
+        </div>
+        <div class="about__copy reveal">
+          <p class="eyebrow">The person behind the prototypes</p>
+          <h2>I like the moment when an ambitious idea becomes specific enough to build.</h2>
+          <div class="about__columns">
+            <p>
+              I’m studying for a BSc in Innovation and Technology at The University of Hong Kong.
+              My work moves between software, AI, product strategy, and hands-on hardware.
+            </p>
+            <p>
+              Long before university, robotics competitions and student leadership taught me to
+              treat constraints as design material. I still work that way: observe closely, make
+              a prototype, and let testing sharpen the idea.
+            </p>
+          </div>
+          <a class="text-link" href="ref/project%2520things.pdf.pdf" target="_blank" rel="noreferrer">View background archive <span>↗</span></a>
+        </div>
+        <aside class="about__facts reveal">
+          <div><span>Currently</span><strong>BSc Innovation & Technology</strong><small>The University of Hong Kong</small></div>
+          <div><span>Working across</span><strong>AI · Hardware · Product</strong><small>Research through prototyping</small></div>
+          <div><span>Based in</span><strong>Hong Kong</strong><small>Open to building useful things</small></div>
+        </aside>
+      </section>
+
+      <section class="recognition section" id="recognition">
+        <div class="section-heading section-heading--compact reveal">
+          <p class="section-index">03 / Recognition</p>
+          <h2>A foundation in making,<br />leading, and competing</h2>
+        </div>
+        <ol class="recognition__list">
+          <li class="reveal"><span>2018</span><strong>FIRST LEGO League</strong><p>Robot Performance Champion</p><b>01</b></li>
+          <li class="reveal"><span>2018</span><strong>World Robot Olympiad</strong><p>Hong Kong Selection · 1st Runner-up</p><b>02</b></li>
+          <li class="reveal"><span>—</span><strong>International Coding Elite Challenge</strong><p>Hong Kong Island Region Champion</p><b>03</b></li>
+          <li class="reveal"><span>2024–25</span><strong>PTA All-Rounder Award</strong><p>Raimondi College</p><b>04</b></li>
+          <li class="reveal"><span>—</span><strong>Chief Scout’s Award</strong><p>Leadership and community service</p><b>05</b></li>
+        </ol>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact__grid" aria-hidden="true"></div>
+        <p class="section-index reveal">04 / Contact</p>
+        <div class="contact__copy reveal">
+          <p>Have a project, a problem, or a promising half-formed idea?</p>
+          <h2>Let’s make it<br /><em>real.</em></h2>
+          <a href="https://github.com/matthew6218" target="_blank" rel="noreferrer">Start on GitHub <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#top"><span>MW</span><i></i></a>
+      <p>Designed and built in Hong Kong.</p>
+      <p>© <span data-year></span> Matthew Wong</p>
+    </footer>
+  </body>
+</html>
