@@ -94,8 +94,14 @@ img { display: block; max-width: 100%; }
 .project--feature .project__body, .project--wide .project__body { padding: 0 0 1rem; }
 .project__meta { display: flex; justify-content: space-between; color: var(--cyan); font: .61rem var(--mono); letter-spacing: .12em; text-transform: uppercase; }
 .project h3 { margin: .8rem 0 1rem; font-size: clamp(2rem, 4vw, 4.2rem); line-height: 1; letter-spacing: -.05em; }
+.project--cortisol h3 { font-size: clamp(2rem, 3.4vw, 3.6rem); }
 .project:not(.project--feature):not(.project--wide) h3 { font-size: clamp(1.8rem, 3vw, 3rem); }
 .project__body > p { color: #a8b7c6; line-height: 1.75; margin: 0; }
+.project__body .project__collaboration { margin: 0 0 1rem; padding-left: 1rem; border-left: 2px solid var(--cyan); color: var(--ink); font-size: .9rem; }
+.project__facts { margin: 1.5rem 0 0; border-top: 1px solid var(--line); }
+.project__facts > div { display: grid; grid-template-columns: 115px 1fr; gap: 1rem; padding: .85rem 0; border-bottom: 1px solid var(--line); }
+.project__facts dt { color: var(--cyan); font: .58rem var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.project__facts dd { margin: 0; color: #9eafbd; font-size: .78rem; line-height: 1.55; }
 .tags { list-style: none; padding: 0; margin: 1.5rem 0 0; display: flex; flex-wrap: wrap; gap: .45rem; }
 .tags li { border: 1px solid var(--line); padding: .45rem .7rem; color: #9eafbd; font: .58rem var(--mono); letter-spacing: .07em; text-transform: uppercase; }
 
@@ -197,6 +203,7 @@ img { display: block; max-width: 100%; }
   .contact__copy > a { margin-left: 0; }
   .site-footer { padding-top: 2rem; padding-bottom: 2rem; flex-wrap: wrap; }
   .site-footer > p { width: 100%; }
+  .project__facts > div { grid-template-columns: 1fr; gap: .45rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
