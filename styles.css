@@ -90,7 +90,6 @@ img { display: block; max-width: 100%; }
 .project__media:hover img { transform: scale(1.035); filter: saturate(1) contrast(1.05); }
 .project--feature .project__media img { object-fit: contain; padding: 5%; background: #dce3e6; }
 .project__number { position: absolute; z-index: 3; top: 1rem; left: 1rem; display: grid; place-items: center; width: 36px; height: 36px; background: rgba(6,16,31,.78); backdrop-filter: blur(8px); border: 1px solid var(--line); color: var(--cyan); font: .65rem var(--mono); }
-.project__open { position: absolute; z-index: 3; right: 1rem; bottom: 1rem; font: .62rem var(--mono); letter-spacing: .1em; text-transform: uppercase; }
 .project__body { padding-top: 1.4rem; }
 .project--feature .project__body, .project--wide .project__body { padding: 0 0 1rem; }
 .project__meta { display: flex; justify-content: space-between; color: var(--cyan); font: .61rem var(--mono); letter-spacing: .12em; text-transform: uppercase; }
@@ -118,12 +117,6 @@ img { display: block; max-width: 100%; }
 .blueprint__room i::before { content: ""; position: absolute; width: 26%; aspect-ratio: 1; border: 1px solid rgba(255,255,255,.4); left: 18%; top: 20%; }
 .project__media--cortisol { background: #edf3f6; color: #06101f; }
 .project__media--cortisol img { object-fit: contain; padding: 4%; background: #edf3f6; }
-.cortisol-visual { height: 100%; padding: 10%; position: relative; }
-.cortisol-visual > span { color: #14779f; }
-.cortisol-visual b { display: block; margin-top: 7%; font: 300 clamp(3rem, 7vw, 6rem) var(--mono); }
-.cortisol-visual small { font: .65rem var(--mono); letter-spacing: .14em; text-transform: uppercase; }
-.pulse { position: absolute; inset: 45% 8% auto; height: 2px; background: #aac0cb; }
-.pulse i { display: block; width: 100%; height: 80px; transform: translateY(-40px); background: #107ca5; clip-path: polygon(0 50%,15% 50%,20% 35%,24% 68%,30% 5%,35% 92%,42% 48%,58% 48%,62% 38%,67% 59%,72% 48%,100% 48%,100% 52%,72% 52%,67% 63%,62% 42%,58% 52%,42% 52%,35% 98%,30% 10%,24% 73%,20% 40%,15% 52%,0 52%); }
 
 .about { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: grid; grid-template-columns: .12fr 1.38fr .5fr; gap: clamp(2rem,5vw,6rem); background: linear-gradient(120deg, rgba(82,217,255,.04), transparent 50%); }
 .about__rail { display: flex; flex-direction: column; align-items: center; gap: 1rem; font: .65rem var(--mono); color: var(--cyan); }
@@ -135,7 +128,6 @@ img { display: block; max-width: 100%; }
 .text-link { display: inline-block; border-bottom: 1px solid var(--cyan); padding: .7rem 0; margin-top: 1.5rem; font: .68rem var(--mono); letter-spacing: .1em; text-transform: uppercase; }
 .text-link span { color: var(--cyan); margin-left: .6rem; }
 .about__links { display: flex; flex-wrap: wrap; gap: 1rem 2rem; }
-.text-link--muted { color: var(--muted); border-color: var(--line); }
 .about__facts { border-left: 1px solid var(--line); padding-left: 2rem; display: flex; flex-direction: column; justify-content: center; }
 .about__facts div { padding: 1.7rem 0; border-bottom: 1px solid var(--line); }
 .about__facts span, .about__facts small { display: block; color: var(--muted); font: .58rem var(--mono); letter-spacing: .11em; text-transform: uppercase; }
